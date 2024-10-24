@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
+  <body
+    class="min-h-screen bg-Dark_Blue flex justify-center items-center font-body px-4 relative"
+  >
+    <main
+      class="bg-Dark_Grayish_Blue text-center p-8 sm:p-14 sm:max-w-[37rem] rounded-xl relative"
+    >
+      <p
+        class="uppercase tracking-[.25em] text-Neon_Green mb-6 text-sm font-semibold"
+      >
+        advice #<span id="adviceId"></span>
+      </p>
+      <p
+        class="text-xl sm:text-[28px] sm:leading-normal text-Light_Cyan mb-8 sm:mb-10"
+      >
+        &ldquo;<span id="advice" class="font-extrabold"></span>&rdquo;
+      </p>
+
+      <img
+        src="./src/images/pattern-divider-desktop.svg"
+        alt="divider"
+        class="mx-auto hidden sm:block pb-6"
+      />
+      <img
+        src="./src/images/pattern-divider-mobile.svg"
+        alt="divider"
+        class="mx-auto sm:hidden block pb-4"
+      />
+
+      <button
+        class="bg-Neon_Green p-4 sm:p-6 rounded-full absolute bottom-0 translate-y-2/4 self-center -translate-x-1/2 hover:shadow-[0_0_25px_hsl(150,100%,66%)]"
+        id="dice_button"
+      >
+        <img src="./src/images/icon-dice.svg" alt="" />
+      </button>
+    </main>
+
+    <footer class="absolute bottom-1 text-center text-[11px] w-full">
+      <p class="text-gray-300">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-[hsl(228,45%,44%)]"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by
+        <a
+          href="https://github.com/AlyaaRushdy"
+          class="text-[hsl(228,45%,44%)]"
+        >
+          Alyaa Ahmed </a
+        >.
+      </p>
+    </footer>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
