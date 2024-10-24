@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontendMentor]()
-- Live Site URL: [Netlify]()
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/mobile-first-responsive-solution-using-css-flexbox-and-tailwindcss-J5lmxZfedZ)
+- Live Site URL: [Netlify](https://magical-torrone-fdced5.netlify.app/)
 
 ## My process
 
